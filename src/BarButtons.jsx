@@ -2,6 +2,7 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import React from 'react';
+import { borders } from '@mui/system';
 
 export default function BarButtons({buttons, fontSize}){
   return(
@@ -13,7 +14,10 @@ export default function BarButtons({buttons, fontSize}){
               <Button href={buttons.href} sx={{
                 display:"flex",
                 color:buttons.color,
-                borderColor:"black",
+                border:"1px solid rgb(12,11,11)",
+                fontSize:19,
+                pb:0,
+                pt:0
               }} size={fontSize} variant={buttons.variant}>{buttons.name}</Button>
             </div>
           ))}
