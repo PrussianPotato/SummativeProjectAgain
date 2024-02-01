@@ -26,6 +26,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.14.20",
     "firebase": "^10.7.1",
+    "react-material-ui-carousel": "^3.4.2",
     "uuid": "^9.0.1"
   }
 }
